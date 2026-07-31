@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Artem Kholdzhgonov, Senior Data Engineer, Moscow. Ingest time for 5.5 GB and 500 million rows fell from 1949 to 369.6 seconds, 5.30 times faster, 1,358,911 rows per second. Career: LANIT 2021, Promsvyazbank 2022, Sber 2023, Wildberries 2025, junior to senior.">
+  <defs>
+    <linearGradient id="wash" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0969DA" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#0969DA" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .s    { font-family: ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .name { font-size: 34px; font-weight: 600; fill: #1F2328; letter-spacing: -0.3px; }
+    .role { font-size: 16px; font-weight: 500; fill: #424A53; }
+    .meta { font-size: 12.5px; font-weight: 400; fill: #59636E; }
+    .cap  { font-size: 10px; font-weight: 600; fill: #6E7781; letter-spacing: 1.5px; }
+    .tick { font-size: 11px; font-weight: 500; fill: #59636E; }
+    .gain { font-size: 15px; font-weight: 600; fill: #1F2328; }
+    .yr   { font-size: 10px; font-weight: 600; fill: #6E7781; letter-spacing: 0.8px; }
+    .org  { font-size: 11.5px; font-weight: 500; fill: #424A53; }
+  </style>
+
+  <rect x="0.5" y="0.5" width="1199" height="339" rx="14" fill="#FFFFFF" stroke="#D0D7DE"/>
+
+  <g class="s">
+    <text x="56" y="84" class="name">Artem Kholdzhgonov</text>
+    <text x="56" y="112" class="role">Senior Data Engineer</text>
+    <text x="56" y="138" class="meta">Moscow &#183; Python &#183; SQL &#183; ClickHouse &#183; Airflow &#183; Kafka</text>
+    <text x="56" y="160" class="meta">Sources &#8594; warehouse &#8594; flows &#8594; marts &#8594; BI</text>
+  </g>
+
+  <line x1="512" y1="52" x2="512" y2="200" stroke="#D8DEE4"/>
+
+  <g class="s">
+    <text x="560" y="58" class="cap">INGEST TIME &#183; 5.5 GB &#183; 500M ROWS</text>
+    <path d="M584 82 L768 143.6 L952 159.3 L1136 168 L1136 184 L584 184 Z" fill="url(#wash)"/>
+    <line x1="584" y1="184" x2="1136" y2="184" stroke="#D8DEE4"/>
+    <polyline points="584,82 768,143.6 952,159.3 1136,168" fill="none" stroke="#0969DA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="584" cy="82" r="4" fill="#0969DA" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="768" cy="143.6" r="4" fill="#0969DA" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="952" cy="159.3" r="4" fill="#0969DA" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="1136" cy="168" r="5" fill="#0969DA" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="584" y="72" class="tick">1949 s</text>
+    <text x="1136" y="156" class="tick" text-anchor="end">369.6 s</text>
+    <text x="560" y="208" class="gain">5.30&#215; faster</text>
+    <text x="1136" y="208" class="meta" text-anchor="end">1,358,911 rows/s</text>
+  </g>
+
+  <line x1="56" y1="252" x2="1144" y2="252" stroke="#D8DEE4"/>
+
+  <g class="s">
+    <circle cx="143" cy="252" r="3.5" fill="#AFB8C1" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="469" cy="252" r="3.5" fill="#AFB8C1" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="687" cy="252" r="3.5" fill="#AFB8C1" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="970" cy="252" r="4.5" fill="#0969DA" stroke="#FFFFFF" stroke-width="2"/>
+
+    <text x="143" y="238" class="yr" text-anchor="middle">2021</text>
+    <text x="469" y="238" class="yr" text-anchor="middle">2022</text>
+    <text x="687" y="238" class="yr" text-anchor="middle">2023</text>
+    <text x="970" y="238" class="yr" text-anchor="middle">2025</text>
+
+    <text x="143" y="276" class="org" text-anchor="middle">LANIT</text>
+    <text x="469" y="276" class="org" text-anchor="middle">Promsvyazbank</text>
+    <text x="687" y="276" class="org" text-anchor="middle">Sber</text>
+    <text x="970" y="276" class="org" text-anchor="middle">Wildberries</text>
+
+    <text x="56" y="304" class="cap">JUNIOR</text>
+    <text x="1144" y="304" class="cap" text-anchor="end">SENIOR</text>
+  </g>
+</svg>

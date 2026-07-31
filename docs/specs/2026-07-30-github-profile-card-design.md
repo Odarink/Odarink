@@ -36,11 +36,30 @@ Decisions taken during brainstorming:
    in the CV. Followed by the path from a rocket-systems degree to senior data engineer.
 5. **Contact** — Telegram, email, languages. VK dropped as noise for this audience.
 
+## Revision, same day — the first version read as a 2000s web page
+
+The owner rejected v1 on design: too many colored badges, too much prose about one project.
+Diagnosis and what changed:
+
+- **20 shields.io badges in four rows** were the strongest period tell. Badges dropped entirely;
+  the stack now lives as plain type inside the card.
+- **Three markdown tables with full sentences in cells** became four one-line list items.
+- **The flagship section ran ~450 words.** Cut to four bullets, ~70 words.
+- **Four `---` rules** removed; headings do the dividing.
+- Per `dataviz`: v1 had **no hero** — three equal 29px figures instead of one dominant number —
+  and its area fill sat at 28% opacity instead of a ~10% wash.
+
+Three directions were rendered with headless Chrome and compared: editorial (quiet, no chart),
+instrument panel (chart + career timeline), hero number (`5.3×` at 108px). The owner chose the
+instrument panel, the only one where the card itself carries information rather than just
+introducing its owner. Its timeline also replaces the experience table that used to be text.
+
 ## Files
 
 - `README.md`
-- `assets/banner-dark.svg`, `assets/banner-light.svg` — 1200×320, system font stack (SVG served
+- `assets/card-dark.svg`, `assets/card-light.svg` — 1200×340, system font stack (SVG served
   through GitHub's image proxy cannot load web fonts), no scripts, no external references.
+  Layout: identity block left, ingest-time line chart right, career timeline across the bottom.
 - `docs/specs/2026-07-30-github-profile-card-design.md` — this file.
 
 ## Out of scope, owner action required
