@@ -1,8 +1,22 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/card-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/card-light.svg">
-  <img alt="Artem Kholdzhgonov, Senior Data Engineer, Moscow. Up to 2 terabytes ingested per day, 20 to 30 pipelines in production, about 100 users across 20 plus teams. Data flow: sources to warehouse to flows to marts to BI." src="assets/card-dark.svg">
+  <img alt="Artem Kholdzhgonov, Senior Data Engineer, Moscow. Up to 2 terabytes ingested per day, 20 to 30 pipelines in production, about 100 users across 20 plus teams." src="assets/card-dark.svg">
 </picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pipeline-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/pipeline-light.svg">
+  <img alt="Data pipeline: sources (Kafka, S3, CSV, API) flow through Airflow and PySpark into ClickHouse and Greenplum warehouses, then into SQL marts, then into BI dashboards and alerts." src="assets/pipeline-dark.svg">
+</picture>
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-24292F?style=flat-square&logo=python&logoColor=white">
+  <img alt="ClickHouse" src="https://img.shields.io/badge/ClickHouse-24292F?style=flat-square&logo=clickhouse&logoColor=white">
+  <img alt="Apache Airflow" src="https://img.shields.io/badge/Airflow-24292F?style=flat-square&logo=apacheairflow&logoColor=white">
+  <img alt="Apache Kafka" src="https://img.shields.io/badge/Kafka-24292F?style=flat-square&logo=apachekafka&logoColor=white">
+  <img alt="Apache Spark" src="https://img.shields.io/badge/Spark-24292F?style=flat-square&logo=apachespark&logoColor=white">
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-24292F?style=flat-square&logo=postgresql&logoColor=white">
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-24292F?style=flat-square&logo=docker&logoColor=white">
+</p>
 
 I take data from wherever it lives to wherever it can be analysed, and I measure the trip.
 Five years across retail and banking.

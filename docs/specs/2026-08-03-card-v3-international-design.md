@@ -116,6 +116,19 @@ BMSTU/rockets sentence kept, one line.
 5. Each SVG ≤ 6 KB, no external references, no scripts.
 6. Visual check in browser at 581 / 846 / 390px, dark and light, before commit.
 
+## Addendum 2026-08-03 — visual layer (approved same day)
+
+User: "не хватает визуала — рекрутеры лояльнее к визуальному профилю."
+
+1. **Pipeline panel** `assets/pipeline-{dark,light}.svg`, viewBox 600×120, placed directly under the card.
+   Five boxes with arrows: SOURCES (Kafka · S3 / CSV · API) → FLOWS (Airflow / PySpark) → WAREHOUSE (ClickHouse / Greenplum, accent border) → MARTS (SQL) → BI (dashboards / alerts).
+   Same discipline as card: 11.5px floor, GitHub palette, dark/light color-only diff, own aria-label.
+2. **Card footer removed** — `sources → warehouse → flows → marts → BI` text line duplicated the panel. Card height 225 → 190; aria/alt trimmed accordingly.
+3. **Stack badge row** under the panel: shields.io flat-square, single tone #24292F, white logos — Python, ClickHouse, Airflow, Kafka, Spark, PostgreSQL, Docker. Only external dependency; cached by GitHub camo. Card v3 dropped the stack line, so badges restore stack visibility rather than duplicate it.
+4. **Rejected**: github-readme-stats / streak / trophies — 83 contributions/yr and 0 stars would be framed and highlighted; dynamic stats work against this profile today.
+
+README order becomes: card → pipeline panel → badges → one-liner → Where I've worked → Selected work → Contact.
+
 ## Out of scope
 
 - hh.ru resume edits (flagged to user separately).
