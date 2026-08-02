@@ -81,7 +81,8 @@ README `<img alt>` carries the same text.
 
 ## README structure
 
-Order: card → one-liner → Selected work → Where I've worked → Contact.
+Order: card → one-liner → Where I've worked → Selected work → Contact.
+(Production scale first, per approved design; csv_to_click second as proof of method.)
 
 Company scale context added for non-RU readers (public common knowledge only, no invented figures):
 
